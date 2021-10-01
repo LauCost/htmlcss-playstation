@@ -142,4 +142,38 @@ img{
     .container{
         width: 90%;
     }
+
+    .rompi{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .rompi{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rompi{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rompi{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .rompi{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .rompi{
+        width: 28%;
+    }
 }
