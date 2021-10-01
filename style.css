@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+
+/********** Header Main Footer **********/
+
+/********** /Header Main Footer **********/
+
+
+
+
+/********** Contenuto Header **********/
+.cont_img{
+    width: 5%;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+
+img{
+    width: 100%;
+}
+/********** /Contenuto Header **********/
