@@ -7,7 +7,10 @@
 
 
 /********** Header Main Footer **********/
-
+header{
+    width: 100%;
+    position: fixed;
+}
 /********** /Header Main Footer **********/
 
 
@@ -15,7 +18,7 @@
 
 /********** Contenuto Header **********/
 .cont_img{
-    width: 5%;
+    width: 50px;
     padding: 10px 0;
     margin-right: 15px;
 }
