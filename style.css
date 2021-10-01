@@ -11,6 +11,10 @@ header{
     width: 100%;
     position: fixed;
 }
+
+main{
+
+}
 /********** /Header Main Footer **********/
 
 
@@ -43,3 +47,37 @@ img{
     border-radius: 20px;
 }
 /********** /Contenuto Header **********/
+
+
+
+
+
+
+
+
+/********** Contenuto Main **********/
+
+
+
+/********** /Sezione Rompi Cerchio**********/
+.junbo{
+    background-image: url(./img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+}
+
+.returnal{
+    width: 250px;
+    padding-top: 200px;
+}
+
+.white{
+    color: #FFFFFF;
+}
+/********** /Sezione Rompi Cerchio**********/
+
+
+
+/********** /Contenuto Main **********/
