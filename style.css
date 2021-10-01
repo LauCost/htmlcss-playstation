@@ -10,6 +10,7 @@
 header{
     width: 100%;
     position: fixed;
+    z-index: 100;
 }
 
 main{
@@ -63,17 +64,46 @@ img{
 .junbo{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
-    
+    background-position: center;
     background-size: cover;
+    width: 100%;
     
 }
 
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    padding-top: 150px;
+}
+
 .returnal{
-    width: 250px;
+    width: 300px;
     padding-top: 200px;
 }
 
 .white{
+    color: #FFFFFF;
+}
+
+.py_100{
+    padding: 100px 0;
+}
+
+.h_rompi{
+    margin: 30px 0;
+}
+
+.rompi{
+    width: 28%;
+    margin-bottom: 30px;
+}
+
+.btn_danger{
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+    border-radius: 25px;
     color: #FFFFFF;
 }
 /********** /Sezione Rompi Cerchio**********/
@@ -81,3 +111,29 @@ img{
 
 
 /********** /Contenuto Main **********/
+
+
+
+
+
+
+
+
+/********** Contenuto Footer **********/
+
+/********** /Contenuto Footer **********/
+
+
+
+
+
+
+
+
+/********** Media Query **********/
+
+@media screen and (max-width: 576px) {
+    .rompi{
+        width: 100%;
+    }
+}
