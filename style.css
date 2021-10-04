@@ -106,7 +106,7 @@ img{
     margin: 30px 0;
 }
 
-.rompi{
+.rompi, .text_two{
     width: 28%;
     margin-bottom: 30px;
 }
@@ -164,6 +164,26 @@ img{
     font-weight: 600;
 }
 /********** /Sezione PS 5 **********/
+
+
+
+/********** Sezione It Takes Two **********/
+.two{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.takes_two{
+    width: 300px;
+    padding: 50px 0;
+}
+
+.h1_two{
+    width: 27%;
+}
+/********** /Sezione It Takes Two **********/
 
 
 
@@ -248,7 +268,7 @@ img{
 /********** Media Query **********/
 
 @media screen and (max-width: 576px) {
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 100%;
     }
 
@@ -267,7 +287,7 @@ img{
        max-width: 90%;
     }
 
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 100%;
     }
 
@@ -288,7 +308,7 @@ img{
 }
 
 @media screen and (min-width: 576px) {
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 80%;
     }
 
@@ -303,7 +323,7 @@ img{
 }
 
 @media screen and (min-width: 768px) {
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 60%;
     }
 
@@ -313,7 +333,7 @@ img{
 }
 
 @media screen and (min-width: 992px) {
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 40%;
     }
 
@@ -328,13 +348,13 @@ img{
 }
 
 @media screen and (min-width: 1200px) {
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 30%;
     }
 }
 
 @media screen and (min-width: 1400px) {
-    .rompi{
+    .rompi, .text_two, .h1_two{
         width: 28%;
     }
 
