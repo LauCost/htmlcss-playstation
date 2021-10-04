@@ -11,6 +11,7 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 footer{
@@ -151,6 +152,17 @@ img{
     border-radius: 20px;
     margin-top: 20px;
 }
+
+.cont_oggetti{
+    width: 60%;
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+
+.cont_oggetti > p{
+    text-align: center;
+    font-weight: 600;
+}
 /********** /Sezione PS 5 **********/
 
 
@@ -238,6 +250,10 @@ img{
 @media screen and (max-width: 576px) {
     .rompi{
         width: 100%;
+    }
+
+    .cont_oggetti > p{
+        display: none;
     }
 }
 
