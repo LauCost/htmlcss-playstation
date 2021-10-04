@@ -48,6 +48,10 @@ img{
     border-color: #363636;
     border-radius: 20px;
 }
+
+.nav-link:hover{
+    color: #318DD7!important;
+}
 /********** /Contenuto Header **********/
 
 
