@@ -157,11 +157,29 @@ img{
     width: 60%;
     opacity: 0.5;
     padding-bottom: 10px;
+    transition: opacity 1s;
 }
 
 .cont_oggetti > p{
     text-align: center;
     font-weight: 600;
+}
+
+.cont_oggetti:hover{
+    opacity: 1;
+    border-bottom: 3px solid #318DD7;
+}
+
+.bordo{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 1px;
+    transition: margin-top 1s;
+}
+
+.bordo:hover{
+    border-color: #318DD7;
+    margin-top: -15px;
 }
 /********** /Sezione PS 5 **********/
 
