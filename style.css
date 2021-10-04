@@ -64,7 +64,7 @@ img{
 .junbo{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     
 }
@@ -144,6 +144,20 @@ img{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.sie{
+    width: 120px;
+}
+
+.text_copy{
+    width: 36%;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.text_copy > a {
+    color: #FFFFFF;
+}
 /********** /Contenuto Footer **********/
 
 
@@ -170,11 +184,21 @@ img{
     .rompi{
         width: 100%;
     }
+
+    .text_copy{
+        width: 100%;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 576px) {
     .rompi{
         width: 80%;
+    }
+
+    .text_copy{
+        width: 95%;
+        font-size: 13px;
     }
 }
 
@@ -188,6 +212,11 @@ img{
     .rompi{
         width: 40%;
     }
+
+    .text_copy{
+        width: 43%;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -199,5 +228,10 @@ img{
 @media screen and (min-width: 1400px) {
     .rompi{
         width: 28%;
+    }
+
+    .text_copy{
+        width: 40%;
+        font-size: 15px;
     }
 }
