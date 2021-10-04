@@ -187,6 +187,30 @@ img{
 
 
 
+/********** Sezione Nuove Uscite **********/
+.nuove{
+    background-color: #1F1F1F;
+}
+
+.h3_uscite{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.cont_uscite > p{
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-weight: 600;
+    width: 92%;
+}
+
+.cont_uscite > img{
+    border-radius: 20px;
+}
+/********** /Sezione Nuove Uscite **********/
+
+
+
 /********** Sezione Media **********/
 .h3_social{
     text-align: center;
