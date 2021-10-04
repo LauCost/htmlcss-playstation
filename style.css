@@ -211,6 +211,36 @@ img{
 
 
 
+/********** Sezione Plus **********/
+.plus{
+    background-color: #BEBCBB;
+    background-image: url(./img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y:top;
+    background-size: contain;
+}
+
+.cont_plus{
+    width: 300px;
+    padding-bottom: 50px;
+}
+
+.text_plus{
+    width: 42%;
+}
+
+.btn_plus{
+    color: #2F65E6;
+    background-color: #D9DADC;
+    border-color: #D9DADC;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/********** /Sezione Plus **********/
+
+
+
 /********** Sezione Media **********/
 .h3_social{
     text-align: center;
@@ -290,9 +320,14 @@ img{
 
 
 /********** Media Query **********/
+@media screen and (max-width: 990px) {
+    .plus{
+        background-image: unset;
+    }
+}
 
 @media screen and (max-width: 576px) {
-    .rompi, .text_two, .h1_two{
+    .rompi, .text_two, .h1_two, .text_plus{
         width: 100%;
     }
 
@@ -358,6 +393,7 @@ img{
     .cont{
         width: 90%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
