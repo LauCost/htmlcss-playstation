@@ -100,6 +100,19 @@ img{
 /********** /Sezione Rompi Cerchio**********/
 
 
+
+/********** Sezione Giochi **********/
+.giochi{
+    margin: 10px 0;
+}
+
+.gioco{
+    border-radius: 20px;
+}
+/********** /Sezione Giochi **********/
+
+
+
 /********** Sezione Media **********/
 h3{
     text-align: center;
