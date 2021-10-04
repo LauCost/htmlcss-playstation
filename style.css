@@ -56,6 +56,33 @@ img{
 
 
 
+/********** Utility **********/
+.white{
+    color: #FFFFFF;
+}
+
+.py_100{
+    padding: 100px 0;
+}
+
+.w-95{
+    width: 95%;
+}
+/********** /Utility **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********** Contenuto Main **********/
 
 
@@ -72,14 +99,6 @@ img{
 .returnal{
     width: 300px;
     padding-top: 200px;
-}
-
-.white{
-    color: #FFFFFF;
-}
-
-.py_100{
-    padding: 100px 0;
 }
 
 .h_rompi{
@@ -101,7 +120,7 @@ img{
 
 
 
-/********** Sezione Giochi **********/
+/********** Sezione PS 5 **********/
 .gioco{
     border-radius: 20px;
 }
@@ -124,7 +143,15 @@ img{
     font-size: 17px;
     margin: 20px 0 0 0;
 }
-/********** /Sezione Giochi **********/
+
+.btn_secondary{
+    color: #fff;
+    background-color: #2D64E6;
+    border-color: #2D64E6;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/********** /Sezione PS 5 **********/
 
 
 
