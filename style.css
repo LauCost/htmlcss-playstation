@@ -66,8 +66,8 @@ img{
     padding: 100px 0;
 }
 
-.w-95{
-    width: 95%;
+.w-80{
+    width: 80%;
 }
 /********** /Utility **********/
 
@@ -298,6 +298,10 @@ img{
 
     .cont_oggetti > p{
         display: none;
+    }
+
+    .text-start > p{
+        width: 100%!important;
     }
 }
 
