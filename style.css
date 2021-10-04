@@ -221,12 +221,12 @@ img{
     background-size: contain;
 }
 
-.cont_plus{
+.cont_plus, .cont_now{
     width: 300px;
     padding-bottom: 50px;
 }
 
-.text_plus{
+.text_plus, .text_now{
     width: 42%;
 }
 
@@ -242,10 +242,34 @@ img{
 
 
 /********** Sezione Sconti **********/
-.cont_sconti{
-    
-}
 /********** /Sezione Sconti **********/
+
+
+
+/********** Sezione Play Now **********/
+.now{
+    background-color: #161C3B;
+    background-image: url(./img/ps-now-april-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y:top;
+    background-size: contain;
+}
+
+.text_now{
+    color: #FFFFFF;
+}
+
+.btn_now{
+    color: #151515;
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/********** /Sezione Play Now **********/
+
+
 
 
 
@@ -329,13 +353,13 @@ img{
 
 /********** Media Query **********/
 @media screen and (max-width: 990px) {
-    .plus{
+    .plus, .now{
         background-image: unset;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .rompi, .text_two, .h1_two, .text_plus{
+    .rompi, .text_two, .h1_two, .text_plus, .text_now{
         width: 100%;
     }
 
