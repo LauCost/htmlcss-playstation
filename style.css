@@ -102,19 +102,34 @@ img{
 
 
 /********** Sezione Giochi **********/
-.giochi{
-    margin: 10px 0;
-}
-
 .gioco{
     border-radius: 20px;
+}
+
+.play_5{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.text_up_h3{
+    color: #0876D0;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.text_bottom_h3{
+    color: #747474;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 0 0 0;
 }
 /********** /Sezione Giochi **********/
 
 
 
 /********** Sezione Media **********/
-h3{
+.h3_social{
     text-align: center;
     margin: 50px 0;
 }
@@ -128,7 +143,7 @@ h3{
 }
 
 .social{
-    width: 22%;
+    width: 20%;
     margin-bottom: 100px;
 }
 /********** /Sezione Media **********/
